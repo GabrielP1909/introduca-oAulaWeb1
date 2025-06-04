@@ -1,67 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculo Pessoal</title>
-    <style>
-        .social-links {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-        }
-        .social-links img {
-            border-radius: 50%;
-            transition: transform 0.3s;
-        }
-        .social-links img:hover {
-            transform: scale(1.1);
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo Gabriel Perugorria</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <h1>․ Apresentação ․</h1>
-    <h3> 
-    <p><strong>Olá! Me chamo Gabriel Perugorria de Azevedo Silva. <br> Cursando Desenvolvimento de Sistemas no IF Sul e no Colégio Ulbra São Lucas, sou apaixonado por tecnologia e sempre em busca de aprender mais. <br> Meu foco? Desenvolvimento web, banco de dados e lógica de programação! <br>
+    <!-- Cabeçalho fixo -->
+    <header class="main-header">
+        <div class="header-bg"></div>
+        <div class="header-content">
+            <h1>Gabriel Perugorria</h1>
+            <p>Desenvolvedor em Formação</p>
+            <!-- Menu de navegação -->
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#apresentacao">Apresentação</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="https://github.com/GabrielP1909" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/gabriel-perugorria-54abb3368/" target="_blank">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-Busco oportunidades de estágio, projetos ou mentorias para colocar em prática o que aprendo e crescer na área. <br>
-<br>
-📫 Chame no privado se quiser conversar sobre tecnologia – aceito dicas sobre a área!</strong></p></h3>
-    <hr>
-    <h1>․ 🔧 Habilidades em estudo ․</h1>
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <section id="apresentacao" class="presentation">
+            <h2>․ Apresentação ․</h2>
+            <p>Olá! Me chamo Gabriel Perugorria de Azevedo Silva.</p>
+            <p>Cursando Desenvolvimento de Sistemas no IF Sul e no Colégio Ulbra São Lucas, sou apaixonado por tecnologia e sempre em busca de aprender mais.</p>
+            <p>Meu foco? Desenvolvimento web, banco de dados e lógica de programação!</p>
+            <div class="highlights">
+                <p>📌 Busco oportunidades de estágio, projetos ou mentorias para colocar em prática o que aprendo e crescer na área.</p>
+                <p>📫 Chame no privado se quiser conversar sobre tecnologia - aceito dicas sobre a área!</p>
+            </div>
+        </section>
 
-<br>
-<h3> 
-→ HTML, CSS, JavaScript <br>
-→ Python / Java / Lua <br>
-→ Git e GitHub <br>
-→ SQL e banco de dados <br>
-<br> 
-</h3> 
-    <h1>․ Cargo e área desejado ․</h1>
-<br>
-<h3> 
-→ Desenvolvedor Web <br>
-→ Desenvolvedor de software <br>
-→ CEO (No futuro)  <br>
-→ Desenvolvedor de blockchain  <br>
-→ Engenheiro de dados  <br>
-<br> 
-    
-    <h1>․ Contato ․</h1>
-    <h4>
-        <strong> Tel: </strong>(51) 996369110 <br> <strong> Email: </strong> gabrielperugorria681@gmail.com 
-    </h4>
-    <h3> <strong>⮟ Clique na imagem ⮟</strong></h3>
+        <section id="formacao" class="academic">
+            <h2>Formação Acadêmica</h2>
+            <div class="info-box">
+                <h3>IF Sul - Desenvolvimento de Sistemas</h3>
+                <p>2025 - Presente</p>
+            </div>
+            <div class="info-box">
+                <h3>Colégio Ulbra São Lucas</h3>
+                <p>2025 - Presente</p>
+            </div>
+        </section>
 
-    <div class="social-links">
-        <a href="https://github.com/GabrielP1909" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="54" height="53" alt="GitHub GabrielP1909">   
-        </a>
-        <a href="https://www.linkedin.com/in/gabriel-perugorria-54abb3368/" target="_blank">
-            <img src="https://img.freepik.com/vetores-premium/logotipo-redondo-do-linkedin-isolado-em-fundo-branco_469489-985.jpg" width="60" height="60" alt="LinkedIn Gabriel Perugorria">  
-        </a>
-    </div>
+        <section id="experiencia" class="experience">
+            <h2>Experiência Profissional</h2>
+            <div class="info-box">
+                <h3>Em busca da primeira oportunidade</h3>
+                <p>Atualmente buscando estágio na área de desenvolvimento</p>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills">
+                <div class="skill-item"><span>💻</span> HTML, CSS, Java, JavaScript, Lua</div>
+                <div class="skill-item"><span>🛠️</span> Git & GitHub</div>
+                <div class="skill-item"><span>📦</span> MySQL, SQLite</div>
+                <div class="skill-item"><span>🟫</span> Node.js (básico)</div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
